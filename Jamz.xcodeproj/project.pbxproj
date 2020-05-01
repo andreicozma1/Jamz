@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34FAEEB9245B7667009002CD /* MyFirstIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FAEEB9245B7667009002CD /* Jamz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FAEEBC245B7667009002CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FAEEBE245B7667009002CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34FAEEC0245B7667009002CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		34FAEEB0245B7667009002CD = {
 			isa = PBXGroup;
 			children = (
-				34FAEEBB245B7667009002CD /* MyFirstIOSApp */,
+				34FAEEBB245B7667009002CD /* Jamz */,
 				34FAEEBA245B7667009002CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		34FAEEBA245B7667009002CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34FAEEB9245B7667009002CD /* MyFirstIOSApp.app */,
+				34FAEEB9245B7667009002CD /* Jamz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34FAEEBB245B7667009002CD /* MyFirstIOSApp */ = {
+		34FAEEBB245B7667009002CD /* Jamz */ = {
 			isa = PBXGroup;
 			children = (
 				34FAEEBC245B7667009002CD /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				34FAEECA245B7669009002CD /* Info.plist */,
 				34FAEEC4245B7669009002CD /* Preview Content */,
 			);
-			path = MyFirstIOSApp;
+			path = Jamz;
 			sourceTree = "<group>";
 		};
 		34FAEEC4245B7669009002CD /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34FAEEB8245B7667009002CD /* MyFirstIOSApp */ = {
+		34FAEEB8245B7667009002CD /* Jamz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34FAEECD245B7669009002CD /* Build configuration list for PBXNativeTarget "MyFirstIOSApp" */;
+			buildConfigurationList = 34FAEECD245B7669009002CD /* Build configuration list for PBXNativeTarget "Jamz" */;
 			buildPhases = (
 				34FAEEB5245B7667009002CD /* Sources */,
 				34FAEEB6245B7667009002CD /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = MyFirstIOSApp;
-			productName = MyFirstIOSApp;
-			productReference = 34FAEEB9245B7667009002CD /* MyFirstIOSApp.app */;
+			name = Jamz;
+			productName = Jamz;
+			productReference = 34FAEEB9245B7667009002CD /* Jamz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34FAEEB4245B7667009002CD /* Build configuration list for PBXProject "MyFirstIOSApp" */;
+			buildConfigurationList = 34FAEEB4245B7667009002CD /* Build configuration list for PBXProject "Jamz" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34FAEEB8245B7667009002CD /* MyFirstIOSApp */,
+				34FAEEB8245B7667009002CD /* Jamz */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,16 +285,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyFirstIOSApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Jamz/Preview Content\"";
 				DEVELOPMENT_TEAM = 3K6E995RS7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstIOSApp/Info.plist;
+				INFOPLIST_FILE = Jamz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andreicozma.MyFirstIOSApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreicozma.jamz;
+				PRODUCT_NAME = Jamz;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,16 +305,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MyFirstIOSApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Jamz/Preview Content\"";
 				DEVELOPMENT_TEAM = 3K6E995RS7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MyFirstIOSApp/Info.plist;
+				INFOPLIST_FILE = Jamz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.andreicozma.MyFirstIOSApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreicozma.jamz;
+				PRODUCT_NAME = Jamz;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34FAEEB4245B7667009002CD /* Build configuration list for PBXProject "MyFirstIOSApp" */ = {
+		34FAEEB4245B7667009002CD /* Build configuration list for PBXProject "Jamz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34FAEECB245B7669009002CD /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34FAEECD245B7669009002CD /* Build configuration list for PBXNativeTarget "MyFirstIOSApp" */ = {
+		34FAEECD245B7669009002CD /* Build configuration list for PBXNativeTarget "Jamz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34FAEECE245B7669009002CD /* Debug */,
